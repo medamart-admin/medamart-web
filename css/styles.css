@@ -110,8 +110,8 @@ line-height: 41px;
 	width:100%;
 }
 #services .circle{
-width:120px;
-height: 115px;
+width:105px;
+height: 105px;
 display:inline-block;
 background: transparent;
 overflow:hidden;
@@ -827,7 +827,7 @@ img, video, iframe, embed, object {
 }
 /* --Portfolio----- */
 #work {
-	background: #88D1F1;
+	background: #007fff;
 	color: #fff;
 }
 #work h2 {
@@ -1237,7 +1237,7 @@ padding:35px 0;
   }
 .b1 { 
   border-radius: 3% / 50%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .navbar-inverse .navbar-nav > li > a { 
   padding: 6px 10px !important; 
