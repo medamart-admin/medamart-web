@@ -4,15 +4,22 @@ Author URI: http://webthemez.com/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;400&family=Manrope:wght@500&display=swap');
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
+}
+@font-face {
+    font-family: 'manrope';
+    src: url('Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
 	height: 100%;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -38,7 +45,7 @@ p {
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family:36px 'Barlow', sans-serif;
+	font-family:36px 'Manrope', sans-serif;
 }
 .fitImage {
 	max-width: 100%;
@@ -90,6 +97,7 @@ background: #9FDE32;
 .feature a {
 display: inline-block;
 font-size: 18px;
+font-family: 'manrope', sans-serif;
 color: #fff;
 background: #0D93E5;
 margin-right: 20px;
@@ -116,6 +124,7 @@ overflow:hidden;
 	-o-transition: all 0.2s linear 0s;
 }
 .pDark h3 {
+	font-family: 'manrope', sans-serif;
 	color: #BEBEBE;
 }
 .btn {
@@ -155,12 +164,14 @@ padding: 9px 12px;
 	margin-bottom: 20px;
 	background: transparent;
 	font-size: inherit;
+	font-family: 'manrope', sans-serif;
 	border-radius: 0px !important;
 	width: 99%;
 	border: 1px solid rgba(255, 255, 255, 0.43);
 }
 .button-outline {
 	-webkit-font-smoothing: antialiased;
+	font-family: 'manrope', sans-serif;
 	display: inline-block;
 	vertical-align: middle;
 	zoom: 1;
@@ -232,7 +243,7 @@ right:0px;
 }
 .flex-caption {zoom: 1;
 bottom: 120px;  color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; left: 0; background: transparent;margin: 0 auto;right: 0;}
-.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 50px;font-weight: bolder;}
+.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 50px;font-family: 'manrope', sans-serif;font-weight: bolder;}
 .flex-caption p {margin: 0 0 15px;font-size: 20px !important;}	
 .flex-caption a{
     background: transparent !important;
@@ -296,19 +307,19 @@ margin-top: 101px;
 }
 .navbar-inverse .navbar-toggle {
 	background-color: #A43E89;
-	background: #38BEE7;  border: 0;
+	background: #007fff;  border: 0;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 /*background-color: #A43E89;*/
 ;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #38BEE7;
+	background: #007fff;
 	border: 0;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #3ECF19;
-	background: #56A6D1;
+	background: #007fff;
 	border-radius: 0px;
 }
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -321,10 +332,10 @@ margin-top: 101px;
 	width: 83%;
 	text-align: center;
 	margin: 23% auto 24px auto;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
 }
 .hero-text p {
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	padding: 0;
 	margin: 12px 8% 0;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
@@ -333,7 +344,7 @@ margin-top: 101px;
     background: #FFFFFF;
     padding: 15px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29) !important;
-    border-bottom: 4px solid #27AFD3;
+    border-bottom: 4px solid #007fff;
     border-radius: 29px / 147px;
 }
 /*.carousel-inner*/
@@ -355,12 +366,14 @@ margin-top: 101px;
 	background: rgba(41, 86, 98, 0.80);
 	color: #FFFFFF;
 	text-shadow: none;
+	font-family: 'manrope', sans-serif;
 	font-weight: bold;
 	display: inline-block;
 }
 .carousel-caption h3 {
 	font-size: 30px;
 	color: #1C4604;
+	font-family: 'manrope', sans-serif;
 	font-weight: bold;
 	text-shadow: #fff 1px 1px 1px;
 }
@@ -379,7 +392,7 @@ margin-top: 101px;
 	line-height: 90px !important;
 }
 #section-strapline {
-	background: #f00bfff;
+	background: #f00bff;
 	line-height: 42px;
 	clear: both;
 }
@@ -398,7 +411,7 @@ margin-top: 101px;
 }
 .navbar-brand b {
 	color: #BA1607;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	font-weight: 900;
 }
 .navbar-brand b i {
@@ -424,19 +437,20 @@ margin-top: 101px;
 }
 .hero-text2 h3{
 font-size: 21px;
+font-family: 'manrope', sans-serif;
 color: #007fff;
 line-height: 36px;
 text-align: center;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #00577D;
+	color: #007fff;
 	font-size: 1.2em;
 	line-height: normal;
 	margin: 17px;
 	padding: 6px 0px !important;
 	border-radius: 5px;
-	font-family: 'Barlow', sans-serif;
-	font-weight: 400;
+	font-family: 'Manrope', sans-serif;
+	font-weight: bold;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #FFFFFF;
@@ -462,11 +476,12 @@ text-align: center;
 }
 .page-section h1 {
 	font-size: 3.5em;
+	font-family: 'manrope', sans-serif;
 	margin: 90px 0 30px;
 	line-height: 1.2em;
 }
 .page-section h1 span {
-	font-weight: 200;
+	font-weight: lighter;
 }
 .page-section h2 {
 	color: #A43E89;
@@ -523,6 +538,7 @@ background: rgba(0, 127, 255, 0.65);
 .hero-text h1 {
 	color: #fff;
 	font-size: 6.5em;
+	font-family: 'manrope', sans-serif;
 	margin: 2% 0 30px;
 	line-height: 50px;  
 	font-size: 48px;
@@ -532,6 +548,7 @@ background: rgba(0, 127, 255, 0.65);
 	font-size: 1.6em;
 	color: #fff;
 	font-style: normal; 
+	font-family: 'manrope', sans-serif;
 	text-shadow: 1px 1px 1px #8F8F8F;
 }
 .arrow-link {
@@ -581,6 +598,7 @@ a.arrow-link:hover {
 }
 .heading h2 {
 	color: #1E2020;
+	font-family: 'manrope', sans-serif;
 	font-size: 46px;
 	font-weight: bolder;
 }
@@ -658,6 +676,7 @@ img, video, iframe, embed, object {
 }
 #aboutUs h3 {
 	font: 18px/34px;
+	font-family: 'manrope', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #222;
@@ -677,6 +696,7 @@ img, video, iframe, embed, object {
 	width: 65%;
 }
 .row .area2 {
+	padding-left: 8%;
 	width: 35%;
 }
 /* Services
@@ -692,6 +712,7 @@ img, video, iframe, embed, object {
 .grid .grid-item {
 }
 .grid .text-content h5 {
+	font-family: 'manrope', sans-serif;
 	font-weight: bold;
 }
 .grid .grid-item .item-content {
@@ -703,6 +724,7 @@ img, video, iframe, embed, object {
 .item-content .fa {
 	position: absolute;
 	color: #646464;
+	font-family: 'manrope', sans-serif;
 	font-size: 4.5em;
 	top: 36px;
 }
@@ -723,6 +745,7 @@ img, video, iframe, embed, object {
 	border-bottom: solid 4px #27AFD3;
 }
 .team-member h4 {
+	font-family: 'manrope', sans-serif;
 	font-size: 19px;
 	line-height: 32px;
 	margin: 10px 0 0;
@@ -781,6 +804,7 @@ img, video, iframe, embed, object {
 	width: 35px;
 	height: 35px;
 	position: relative;
+	font-family: 'manrope', sans-serif;
 	display: inline-block;
 	text-align: center;
 	font-size: 18px;
@@ -804,7 +828,8 @@ img, video, iframe, embed, object {
 }
 #portfolio .filters li a {
 	color: #999;
-	font-weight: 600;
+	font-family: 'manrope', sans-serif;
+	/* font-weight: ; */
 	text-transform: uppercase;
 	border: 1px solid #fff;
 	padding: 6px 10px;
@@ -888,6 +913,7 @@ nav#filter a {
 	min-height: 600px;
 }
 .btn {
+	font-family: 'manrope', sans-serif;
 	font-weight: 200;
 }
 .btn-dark {
@@ -917,7 +943,7 @@ hr {
 }
 body {
 	margin: 0;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	background: #DCE8EC;
 }
 #navigation {
@@ -969,6 +995,7 @@ footer {
 	color: #000;
 }
 .social a {
+	font-family: 'manrope', sans-serif;
 	font-size: 32px;
 	margin: 0 10px;
 	color: #A43E89;
@@ -997,18 +1024,21 @@ footer {
 	cursor: e-resize;
 }
 .clients .customNavigation > a {
+	font-family: 'manrope', sans-serif;
 	font-size: 25px;
 	cursor: pointer;
 	margin: 0px 5px;
 }
 .portfolio-item img:hover {
-	width: 110%;
-	height: 110%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 10%;
 }
 footer{
 	background: #000C11;
 }
 footer h4{
+	font-family: 'manrope', sans-serif;
 font-size:24px;	
 padding-bottom:12px;
 }
@@ -1018,6 +1048,7 @@ padding: 0;
 list-style: none;
 }
 footer .col ul li, footer .col p {
+	font-family: 'manrope', sans-serif;
 font-size: 14px;
 color: #696969;
 }
@@ -1025,6 +1056,7 @@ footer .col.col-social-icons i {
 width: 40px;
 height: 40px;
 display: inline-block;
+font-family: 'manrope', sans-serif;
 padding: 10px;
 margin-right: 10px;
 margin-bottom: 10px;
@@ -1100,6 +1132,7 @@ padding:35px 0;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #88D1F1;
+	font-family: 'manrope', sans-serif;
 	font-size: 1.1em;
 	padding: 6px 14px !important;
 	border-radius: 5px;
@@ -1117,9 +1150,11 @@ padding:35px 0;
 	width: auto;
 }
 .da-slide h2 {
+	font-family: 'manrope', sans-serif;
 	font-size: 28px;
 }
 .banner-content p {
+	font-family: 'manrope', sans-serif;
 	font-size: 1.2em;
 	text-shadow: none;
 }
@@ -1171,6 +1206,7 @@ padding:35px 0;
 @media (max-width:760px) {
 .header .navbar-nav > li > a {
 	padding: 7px 12px;
+	font-family: 'manrope', sans-serif;
 	font-size: 14px;
 }
 .header .navbar-brand {
@@ -1202,6 +1238,7 @@ width: 100%;
 bottom:0px;
 }
 .flex-caption h3{
+font-family: 'manrope', sans-serif;
 font-size:30px;
 }
 .flex-caption p{
@@ -1225,6 +1262,7 @@ font-size:30px;
 display:none;
 }
 .responsive-headline {
+	font-family: 'manrope', sans-serif;
 	font-size: 16px !important
 }
 .hero-text {
@@ -1234,9 +1272,11 @@ margin-top: 22%;
 line-height: 35px; 
 }
 .flex-caption h3{
+	font-family: 'manrope', sans-serif;
 font-size:20px;
 }
 .responsive-headline {
+	font-family: 'manrope', sans-serif;
 font-size: 21px !important;
 }
 .navbar {
@@ -1246,6 +1286,7 @@ font-size: 21px !important;
 	display: none;
 }
 .da-slide h2 {
+	font-family: 'manrope', sans-serif;
 	font-size: 22px;
 	top: 7px;
 	text-shadow: none;
@@ -1271,22 +1312,27 @@ font-size: 21px !important;
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	font-family: 'manrope', sans-serif;
 	font-size: 16px;
 }
 .page-section {
 	padding: 0px;
 }
 .page-section h1 {
+	font-family: 'manrope', sans-serif;
 	font-size: 3em;
 }
 .page-section h2 {
+	font-family: 'manrope', sans-serif;
 	font-size: 2em;
 }
 .page-section p {
+	font-family: 'manrope', sans-serif;
 	font-size: 1em;
 	margin: 0 0 20px;
 }
 .portfolio-item .portfolio-desc .folio-info h5 {
+	font-family: 'manrope', sans-serif;
 	font-size: 11px;
 }
 .navbar-inverse .navbar-nav > li > a{
@@ -1342,6 +1388,7 @@ overflow: hidden;
 .portfolio-item .portfolio-desc .folio-info h5 {
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'manrope', sans-serif;
 	font-weight: normal;
 	font-size: 10px;
 	margin: 10px 0 0 0;
@@ -1411,6 +1458,7 @@ nav#filter li {
 .flat .plan li.plan-name {
 	border-radius: 0;
 	padding: 15px;
+	font-family: 'manrope', sans-serif;
 	font-size: 24px;
 	line-height: 24px;
 	color: #FFFFFF;
@@ -1424,6 +1472,7 @@ nav#filter li {
 }
 .flat .plan li > strong {
 	color: #6B6B6B;
+	font-family: 'manrope', sans-serif;
 	font-weight: normal;
 }
 .flat .plan li.plan-action {
