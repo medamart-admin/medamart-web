@@ -86,7 +86,7 @@ height: 12px;
 border-radius:0px;
 }
 .progress .progress-bar.progress-bar-red {
-background: #F76E26;
+background: #BA1607;
 }
 .progress .progress-bar.progress-bar-green {
 background: #51D4B6;
@@ -306,7 +306,7 @@ margin-top: 101px;
 	background: transparent;
 }
 .navbar-inverse .navbar-toggle {
-	background-color: #A43E89;
+	background-color: #BA1607;
 	background: #007fff;  border: 0;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -350,7 +350,7 @@ margin-top: 101px;
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 50px;
-	border-bottom: 4px solid #A43E89;
+	border-bottom: 4px solid #BA1607;
 }
 .carousel-inner > .item {
 }
@@ -379,7 +379,7 @@ margin-top: 101px;
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #A43E89;
+	background: #BA1607;
 }
 .actionPanel h3 {
 	margin: 0px;
@@ -392,7 +392,7 @@ margin-top: 101px;
 	line-height: 90px !important;
 }
 #section-strapline {
-	background: #f00bff;
+	background: #BA1607;
 	line-height: 42px;
 	clear: both;
 }
@@ -674,6 +674,14 @@ img, video, iframe, embed, object {
 	padding-right: 32px;
 	float: left;
 }
+@media screen and (max-width:480px) {
+
+	#aboutUs h3{
+	
+	text-align: center !important;
+	
+	}
+}
 #aboutUs h3 {
 	font: 18px/34px;
 	font-family: 'manrope', sans-serif;
@@ -688,6 +696,14 @@ img, video, iframe, embed, object {
 #aboutUs .left {
 	padding-right: 32px;
 	float: left;
+}
+@media screen and (max-width:480px) {
+
+	#aboutUs .right{
+	
+	text-align: center !important;
+	
+	}
 }
 #aboutUs .right {
 	float: right;
