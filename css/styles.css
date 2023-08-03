@@ -25,7 +25,7 @@ body {
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-	background: #fff;
+	background: #007fff;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -92,7 +92,7 @@ background: #BA1607;
 background: #51D4B6;
 }
 .progress .progress-bar.progress-bar-lblue {
-background: #9FDE32;
+background: #007fff;
 }
 .feature a {
 display: inline-block;
@@ -844,7 +844,7 @@ img, video, iframe, embed, object {
 	margin-bottom: 20px
 }
 #portfolio .filters li a {
-	color: #999;
+	color: #007fff;
 	font-family: 'manrope', sans-serif;
 	/* font-weight: ; */
 	text-transform: uppercase;
@@ -852,7 +852,7 @@ img, video, iframe, embed, object {
 	padding: 6px 10px;
 }
 #portfolio .filters li a, #portfolio .filters li a:hover, #portfolio .filters li a:focus {
-	color: #fff
+	color: #007fff
 }
 #portfolio .filters li a.active {
 	color: #000 !important;
@@ -864,6 +864,7 @@ img, video, iframe, embed, object {
 }
 #portfolio .items li {
 	position: relative;
+	color: #007fff;
 	float: left;
 	width: 50%;
 	overflow: hidden;
