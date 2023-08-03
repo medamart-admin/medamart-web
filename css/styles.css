@@ -829,6 +829,7 @@ img, video, iframe, embed, object {
 #work {
 	background: #007fff;
 	color: #fff;
+	opacity: 70%;
 }
 #work h2 {
 	color: #fff !important;
